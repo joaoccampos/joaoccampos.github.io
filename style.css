@@ -9,27 +9,17 @@ a {
 }
 
 a:hover, a:focus {
-    color: rgb(204, 153, 0);
+    color: #e6b800;
 }
 
 header {
   	padding: 20px 0;
+  	width: 100%;
+    min-height: auto;
   	background-image: url('../img/fundoHeader.jpg');
   	background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-}
-
-header .row, footer .row {
-  	display: flex;
-  	align-items: center;
-}
-
-header nav {
-  	display: flex;
-  	justify-content: flex-end;
-  	padding: 0 20px;
-  	margin: 0;
 }
