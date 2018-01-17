@@ -36,16 +36,6 @@ body {
     color:#c59d5f;
 }
 
-/* types of font
-font-family: 'Josefin Sans', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Indie Flower', cursive;
-font-family: 'Josefin Slab', serif;
-font-family: 'Delius', cursive;  --> texto
-font-family: 'Montez', cursive;  --> titulos
-font-family: 'Clicker Script', cursive;
-font-family: 'Allura', cursive;
-*/
 .header-content-inner .container p {
     
     margin-top: 20px;
@@ -74,18 +64,37 @@ font-family: 'Allura', cursive;
     -o-background-size: cover;
 }
 
-.navbar-inverse .nav li.active a
+.navbar-inverse .nav li a
 {
     color:white;
     background-color: transparent;
 }
 
-.navbar-inverse .nav li.active a:focus,
-.navbar-inverse .nav li.active a:hover
+.navbar-inverse .nav li a:focus,
+.navbar-inverse .nav li a:hover
 {
     color:#c59d5f;
     background-color: transparent;
 }
+ 
+/*navbar sobre nos e contactos*/
+.top-content .navbar-nav {
+    margin-top:10px;
+    border-bottom: 2px solid #c59d5f;
+}
+
+.top-content .navbar-inverse .nav li a
+{
+    color:black;
+    background-color: transparent;
+}
+.top-content .navbar-inverse .nav li a:focus,
+.top-content .navbar-inverse .nav li a:hover
+{
+    color:#c59d5f;
+    background-color: transparent;
+}
+
 
 .btn {
     margin-top: 180px;
@@ -104,6 +113,7 @@ font-family: 'Allura', cursive;
     color: rgba(255,255,255,.7);
 }
 
+/*div com informação sobre STOPAUTO*/
 .info-container { 
     margin: 0 auto; 
     padding-bottom: 80px; 
@@ -152,6 +162,7 @@ font-family: 'Allura', cursive;
     color: black;
 }
 
+/*div com contactos*/
 .logo-container img {
     margin-top: 50px;
     margin-left: 50px;
