@@ -1,6 +1,6 @@
 function goToByScroll(){
     $('html,body').animate({
-        scrollTop: $("#infoContainer").offset().top}, 'slow');
+        scrollTop: $("#infoContainer").offset().top}, 1000);
 }
 
 $(".header-content-inner .container > a").click(function(e) { 
