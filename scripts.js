@@ -1,15 +1,11 @@
-function goToByScroll(id){
-      // Remove "link" from the ID
-    id = id.replace("link", "");
-      // Scroll
+function goToByScroll(){
     $('html,body').animate({
-        scrollTop: $("#"+id).offset().top},
-        'slow');
+        scrollTop: $("#infoContainer").offset().top}, 'slow');
 }
 
 $(".header-content-inner .container > a").click(function(e) { 
-      // Prevent a page reload when a link is pressed
+    // Prevent a page reload when a link is pressed
     e.preventDefault(); 
-      // Call the scroll function
-    goToByScroll(this.id);           
+    // Call the scroll function
+    goToByScroll();           
 });
