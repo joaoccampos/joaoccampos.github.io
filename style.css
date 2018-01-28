@@ -1,5 +1,5 @@
 body {
-    font-family: 'Delius',Arial,sans-serif;
+    font-family: 'Delius',cursive;
     width: 100%;
     height: 100%;
     cursor: default;
@@ -12,7 +12,7 @@ body {
     padding: 10px 0;
     position:relative;
     text-align: center;
-    background: url('fundoHeader.jpg');
+    background: url('img/fundoHeader.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -23,39 +23,41 @@ body {
 .header-content-inner {
     position: relative;
     width: 100%;
-    padding: 150px 0 170px 0;
+    padding: 150px 0 130px 0;
     text-align: center;
 }
 
 .header-content-inner .container h1 {
     margin-top: 0;
     margin-bottom: 20px;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 300;
-    font-family: 'Allura', cursive;
+    font-family: 'Carter One', cursive;
     color:#c59d5f;
 }
 
 .header-content-inner .container p {
     
     margin-top: 20px;
-    font-family: 'Indie Flower', cursive;
-    font-size: 45px;
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 25px;
     font-weight: 300;
     color: rgba(255,255,255,.7);
 }
+
 /*div com cabeçalho do header*/
-.navbar {
+.header-content .navbar {
     margin-bottom: 0;
-    padding-top: 20px;
+    padding-top: 8px;
+    margin-top: 7px;
     border: 0!important;
-    background: none!important;
+    background-color: rgba(1,1,1,.3)!important;
     font-size:20px;
 }
 
 .navbar-brand img{
     margin-top:-33px;
-    width:120px;
+    width:110px;
     height:100px;
     background-position: center;
     -webkit-background-size: cover;
@@ -78,9 +80,37 @@ body {
 }
  
 /*navbar sobre nos e contactos*/
+.top-content .navbar-toggle{
+    border-color: #c59d5f!important;
+}
+
+.top-content .icon-bar{
+    background: #c59d5f!important;
+}
+
+.top-content .navbar{
+    margin-bottom: 0;
+    padding-top: 8px;
+    margin-top: 7px;
+    border: 0!important;
+    background:none!important;
+    font-size:20px;
+}
+
 .top-content .navbar-nav {
     margin-top:10px;
     border-bottom: 2px solid #c59d5f;
+}
+
+.top-content .navbar-brand img{
+    margin-top: -23px;
+    width:110px;
+    height:100px;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .top-content .navbar-inverse .nav li a
@@ -97,13 +127,13 @@ body {
 
 
 .btn {
-    margin-top: 180px;
+    margin-top: 140px;
     border: 3px solid #c59d5f;
     border-radius: 50px;
     background-color: transparent;
     color: rgba(255,255,255,.7);
-    font-size: 40px;
-    font-family: 'Delius', sans-serif;
+    font-size: 30px;
+    font-family: 'Delius', cursive;
     cursor: pointer;
 }
 
@@ -119,19 +149,19 @@ body {
 
 /*div com informação sobre STOPAUTO*/
 .info-container { 
-    margin: 0 auto; 
-    padding-bottom: 80px; 
+     
+    padding-bottom: 50px; 
 }
 
 .title-container h1{ 
     color:#c59d5f;
-    margin-top: 120px; 
-    padding-bottom: 10px;
-    font-family: 'Allura', cursive;
-    font-size: 80px;
+    margin-top: 80px; 
+    padding-bottom: 5px;
+    font-family: 'Delius', cursive;
+    font-size: 40px;
 }
 
-.divider-1 { padding: 15px 0 75px 0; }
+.divider-1 { padding: 0 0 50px 0; }
 
 .divider-1 .line { 
     width: 160px; 
@@ -139,7 +169,7 @@ body {
     border-bottom: 1px solid #c59d5f; 
 }
 
-.info-description { 
+.info-description-inner { 
     margin-top: 30px; 
     text-align: left; 
 }
@@ -148,41 +178,32 @@ body {
     margin-top: 0; 
     padding: 0 0 10px 0;
     color: black;
-    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
 }
 
 .info-description p { 
     font-size: 20px;
 }
 
-.info-description .btn{
+.info-description .btn {
+    text-align: center;
     color: black;
     font-size: 20px;
-    margin-top: 50px;
-    margin-left: 150px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 .info-description .btn:hover,
 .info-description .btn:active {
-    background-color: rgba(230, 230, 230,0.8);
+    background-color: rgba(204, 204, 204,0.8);
     color: black;
 }
 
-/*div com informação de contactos*/
 .logo-container img {
-    margin-top: 50px;
-    margin-left: 50px;
+    margin-top: 85px;
+    width: 330px;
 }
 
-.separator {
-    background-color: rgba(179, 179, 179,0.5);
-    height: 300px;
-    margin-top: 30px;
-}
-
-.separator img{
-    width: 450px;
-}
-
+/*div com informação de contactos*/
 .contact-container { 
     margin: 0 auto; 
     padding-bottom: 80px;
@@ -191,10 +212,8 @@ body {
 }
 
 .contact-container img{
-    width: 450px;
-    margin-left: -150px;
-    margin-bottom: 100px;
-    margin-top: 0px;
+    width: 400px;
+    margin: 40px 0 10px -150px;
 }
 
 .contact-description {
@@ -205,7 +224,7 @@ body {
     margin-top: -10px; 
     padding: 0 0 10px 0;
     color: black;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Delius', cursive;
     color:#c59d5f;
 }
 
@@ -227,12 +246,11 @@ body {
 /*Página de contactos*/
 .title-container h2{ 
     color:#c59d5f;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 0px;
-    font-family: 'Allura', cursive;
-    font-size: 70px;
+    font-size: 45px;
 }
-.divider-2 { padding: 130px 860px 0 0; }
+.divider-2 { padding: 160px 860px 0 0; }
 
 .divider-2 .line { 
     width: 160px; 
@@ -241,11 +259,14 @@ body {
     border-bottom: 1px solid #c59d5f; 
 }
 
+.machine img {
+    width: 740px;
+    margin-top: 50px;
+}
 
 .mapa img {
-    width: 1200px;
+    width: 1100px;
     margin-top: 50px;
-    margin-left: -30px;
 }
 
 footer {
@@ -255,13 +276,217 @@ footer {
     text-align: center;
     color:black;
 }
+
+@media (max-width: 991px) {
+    /*contacts*/
+    .divider-2 .line { 
+        width: 115px; 
+        margin-left: 60px;
+        margin-bottom: 50px; 
+        border-bottom: 1px solid #c59d5f; 
+    }
+
+    .mapa img {
+        width: 750px;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .top-content {
+        padding-top: 5px;
+    }
+    .header-content-inner {
+        padding: 130px 0 100px 0;
+    }
+    .navbar-brand img{
+        margin-top:-28px;
+        width:90px;
+        height:80px;
+    }
+    .header-content-inner .container h1 {
+        font-size: 50px;
+    }
+    .header-content-inner .container p {
+        font-size: 22px;
+    }
+    .btn {
+        font-size: 22px;
+    }
+    .title-container h1{ 
+        margin-top: 60px;
+        font-size: 32px;
+    }
+    .divider-1 { padding: 0 0 30px 0; }
+    .info-description h1 { 
+        font-size: 20px;
+    }
+    .info-description p { 
+        font-size: 18px;
+    }
+    .info-description .btn{
+        font-size: 18px;
+    }
+    .logo-container img {
+        width: 260px;
+        margin-top: 30px;
+    }
+    .contact-container img{
+        width: 200px;
+        margin: 40px 0 20px 0;
+    }
+    .contact-description h1 { 
+        font-size: 25px;
+    }
+    .contact-description p { 
+        font-size: 18px;
+    }
+    .contact-description .btn{
+        font-size: 18px;
+    }
+    footer {
+        font-size:18px;
+    }
+    /*about us*/
+    .machine img{
+        width: 420px;
+    }
+    /*contacts*/
+    .top-content .navbar-brand img{
+        width:90px;
+        height:80px;
+    }
+    .title-container h2{ 
+        text-align: left;
+        margin-left: 30px;
+        font-size: 35px;
+    }
+    .divider-2 { padding: 10px 0 0 0; }
+
+    .divider-2 .line { 
+        width: 105px; 
+        margin-left: 70px;
+        margin-bottom: 20px; 
+        border-bottom: 1px solid #c59d5f; 
+    }
+
+    .mapa img {
+        width: 650px;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .top-content {
+        padding-top: 10px;
+    }
+	.header-content {
+	    background: url('img/fundoHeader2.jpg');
+	    background-position: center;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    background-size: cover;
+	    -o-background-size: cover;
+	}
+	.header-content-inner {
+	    position: relative;
+	    width: 100%;
+	    height: 100%;
+	    padding: 130px 0 100px 0;
+	    text-align: center;
+	}
+	.navbar-brand img{
+		margin-top:-23px;
+	    width:68px;
+	    height:58px;
+	}
+	.header-content-inner .container h1 {
+	    font-size: 30px;
+	}
+	.header-content-inner .container p {
+	    font-size: 15px;
+	}
+	.btn {
+		font-size: 15px;
+	}
+    .title-container h1{ 
+        margin-top: 60px;
+        font-size: 22px;
+    }
+    .divider-1 { padding: 0 0 30px 0; }
+    .info-description h1 { 
+        font-size: 18px;
+    }
+    .info-description p { 
+        font-size: 15px;
+    }
+    .info-description .btn{
+        font-size: 15px;
+    }
+    .logo-container img {
+        width: 220px;
+        margin-top: 30px;
+    }
+    .contact-container img{
+        width: 200px;
+        margin: 40px 0 20px 0;
+    }
+    .contact-description h1 { 
+        font-size: 18px;
+    }
+    .contact-description p { 
+        font-size: 15px;
+    }
+    .contact-description .btn{
+        font-size: 15px;
+    }
+    footer {
+        font-size:15px;
+    }
+    /*about us*/
+    .machine img{
+        width: 330px;
+    }
+    /*contacts*/
+    .top-content .navbar-brand img{
+        width:68px;
+        height:58px;
+    }
+    .title-container h2{ 
+        text-align: left;
+        margin-left: 30px;
+        margin-top: 50px;
+        font-size: 22px;
+    }
+    .divider-2 { padding: 10px 0 0 0; }
+
+    .divider-2 .line { 
+        width: 100px; 
+        margin-left: 45px;
+        margin-bottom: 20px; 
+        border-bottom: 1px solid #c59d5f; 
+    }
+
+    .mapa img {
+        width: 430px;
+        margin-top: 50px;
+    }
+}
+
 /* types of font
 font-family: 'Josefin Sans', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Delius', cursive;  --> texto
 --> titulos
 font-family: 'Indie Flower', cursive;
-font-family: 'Montez', cursive;  
-font-family: 'Dancing Script', cursive;
 font-family: 'Allura', cursive;
+
+font-family: 'Changa One', cursive;
+font-family: 'Carter One', cursive;
+font-family: 'Candal', sans-serif;
+font-family: 'Mogra', cursive;
+font-family: 'Baloo Bhai', cursive;
+font-family: 'Asul', sans-serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Anton', sans-serif;
 */
